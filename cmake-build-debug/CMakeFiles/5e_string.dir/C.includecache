@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/5e_string/main.c
+string/string_.h
+D:/5e_string/string/string_.h
+D:/5e_string/string/tasks/allTestsTasks.h
+-
+
+D:/5e_string/string/string_.h
+stdio.h
+-
+ctype.h
+-
+
+D:/5e_string/string/tasks/allTestsTasks.h
+removeNonLetters.h
+D:/5e_string/string/tasks/removeNonLetters.h
+
+D:/5e_string/string/tasks/removeNonLetters.h
+D:/5e_string/string/string_.h
+-
+

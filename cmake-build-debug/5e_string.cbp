@@ -119,6 +119,12 @@
 		<Unit filename="D:/5e_string/string/string_.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="D:/5e_string/string/tasks/allTestsTasks.h">
+			<Option target="5e_string"/>
+		</Unit>
+		<Unit filename="D:/5e_string/string/tasks/removeNonLetters.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="D:/5e_string/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
