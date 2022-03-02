@@ -5,4 +5,5 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../main.c \
  ../string/string_.h \
  ../string/tasks/allTestsTasks.h \
+ ../string/tasks/removeExtraSpaces.h \
  ../string/tasks/removeNonLetters.h
