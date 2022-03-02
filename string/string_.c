@@ -94,9 +94,19 @@ void assertString(const char *expected, char *got,
         fprintf(stderr, "%s - OK\n", funcName);
 }
 
-char* getEndOfString(char *str) {
+char *getEndOfString(char *str) {
     while (*str != '\0')
         str++;
 
     return str;
+}
+
+int getWord(char *beginSearch, WordDescriptor *word) {
+    word->begin = findNonSpace(beginSearch);
+    if (*word->begin == '\0')
+        return 0;
+
+    word->end = findSpace(word->begin);
+
+    return 1;
 }
