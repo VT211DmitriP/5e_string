@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdbool.h>
 
 #ifndef INC_5E_STRING_STRING__H
 #define INC_5E_STRING_STRING__H
@@ -17,7 +18,6 @@ typedef struct WordDescriptor {
     char *begin; // позиция начала слова
     char *end; // позиция первого символа, после последнего символа слова
 } WordDescriptor;
-
 
 size_t strlen_(char *begin);
 
@@ -46,5 +46,7 @@ void assertString(const char *expected, char *got,
 char *getEndOfString(char *str);
 
 int getWord(char *beginSearch, WordDescriptor *word);
+
+bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word);
 
 #endif

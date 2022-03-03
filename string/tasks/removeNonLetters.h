@@ -47,7 +47,4 @@ void test_removeNonLetters() {
     test_removeNonLetters_voidString();
 }
 
-
-
-
 #endif

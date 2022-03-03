@@ -7,4 +7,5 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/allTestsTasks.h \
  ../string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h \
  ../string/tasks/removeExtraSpaces.h \
- ../string/tasks/removeNonLetters.h
+ ../string/tasks/removeNonLetters.h \
+ ../string/tasks/replacingEachDigitWithSpaces.h
