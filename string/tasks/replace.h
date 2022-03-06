@@ -1,5 +1,4 @@
 #include "D:\5e_string\string\string_.h"
-#include <memory.h>
 
 #ifndef INC_5E_STRING_REPLACE_H
 #define INC_5E_STRING_REPLACE_H

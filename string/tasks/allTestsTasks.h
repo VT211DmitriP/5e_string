@@ -3,6 +3,7 @@
 #include "digitToStartWithoutChangingTheOrderOfTheWord.h"
 #include "replacingEachDigitWithSpaces.h"
 #include "replace.h"
+#include "isWordsOrdered.h"
 
 #ifndef INC_5E_STRING_ALLTESTSTASKS_H
 #define INC_5E_STRING_ALLTESTSTASKS_H
@@ -13,6 +14,7 @@ void allTestsTasks() {
     test_digitToStartWithoutChangingTheOrderOfTheWord();
     test_replacingEachDigitWithSpaces();
     test_replace();
+    test_isWordsOrdered();
 
 }
 

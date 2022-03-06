@@ -123,4 +123,6 @@ bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word) {
     return 1;
 }
 
-int areWordsEqual(WordDescriptor w1, WordDescriptor w2) {}
+int areWordsEqual(WordDescriptor w1, WordDescriptor w2) {
+    return strcmp(w1.begin, w2.begin);
+}

@@ -6,6 +6,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/string_.h \
  ../string/tasks/allTestsTasks.h \
  ../string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h \
+ ../string/tasks/isWordsOrdered.h \
  ../string/tasks/removeExtraSpaces.h \
  ../string/tasks/removeNonLetters.h \
  ../string/tasks/replace.h \
