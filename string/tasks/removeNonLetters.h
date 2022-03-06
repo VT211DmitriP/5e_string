@@ -33,7 +33,7 @@ void test_removeNonLetters_onlySpaceCharacters() {
     ASSERT_STRING(s, "");
 }
 
-void test_removeNonLetters_voidString() {
+void test_removeNonLetters_emptyString() {
     char s[] = "";
     removeNonLetters(s);
     ASSERT_STRING(s, "");
@@ -44,7 +44,7 @@ void test_removeNonLetters() {
     test_removeNonLetters_withSpace();
     test_removeNonLetters_whiteSpaceCharacters();
     test_removeNonLetters_onlySpaceCharacters();
-    test_removeNonLetters_voidString();
+    test_removeNonLetters_emptyString();
 }
 
 #endif

@@ -3,7 +3,7 @@ project(5e_string C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(5e_string main.c string/tasks/allTestsTasks.h string/tasks/removeExtraSpaces.h string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h string/tasks/replacingEachDigitWithSpaces.h) # string/tasks/removeNonLetters.h string/string_.c string/string_.h)
+add_executable(5e_string main.c string/tasks/allTestsTasks.h string/tasks/removeExtraSpaces.h string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h string/tasks/replacingEachDigitWithSpaces.h string/tasks/replace.h) # string/tasks/removeNonLetters.h string/string_.c string/string_.h)
 
 add_library(str string/string_.h string/string_.c
         string/tasks/removeNonLetters.h

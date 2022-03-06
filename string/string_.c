@@ -31,6 +31,7 @@ char *findSpace(char *begin) {
     return end;
 }
 
+//TODO: возможно пересмотреть
 char *findNonSpaceReverse(char *rbegin, const char *rend) {
     while (rbegin != rend && isspace(*rbegin))
         rbegin--;
@@ -111,13 +112,15 @@ int getWord(char *beginSearch, WordDescriptor *word) {
     return 1;
 }
 
-// TODO: надо затестить
+//TODO: также возможно пересмотреть
 bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word) {
-    word->begin = findNonSpaceReverse(rbegin, rend);
-    if (*word->begin == '\0')
+    word->end = findNonSpaceReverse(rbegin - 1, rend);
+    if (word->end == rend && !isgraph(*rend) || *word->end == '\0')
         return 0;
 
-    word->end = findSpaceReverse(word->begin, rend);
+    word->begin = findSpaceReverse(word->end, rend);
 
     return 1;
 }
+
+int areWordsEqual(WordDescriptor w1, WordDescriptor w2) {}

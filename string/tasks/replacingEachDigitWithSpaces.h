@@ -16,11 +16,11 @@ void replacingEachDigitWithSpaces(char *s) {
                 s++;
                 (*readPtr)--;
             }
-            *readPtr++;
+            readPtr++;
             *s = *readPtr;
         } else {
-            *readPtr++;
-            *s++;
+            readPtr++;
+            s++;
         }
     }
     *s = '\0';

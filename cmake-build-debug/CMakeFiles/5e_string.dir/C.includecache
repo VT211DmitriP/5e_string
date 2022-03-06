@@ -29,6 +29,8 @@ digitToStartWithoutChangingTheOrderOfTheWord.h
 D:/5e_string/string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h
 replacingEachDigitWithSpaces.h
 D:/5e_string/string/tasks/replacingEachDigitWithSpaces.h
+replace.h
+D:/5e_string/string/tasks/replace.h
 
 D:/5e_string/string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h
 D:/5e_string/string/string_.h
@@ -40,6 +42,12 @@ D:/5e_string/string/string_.h
 
 D:/5e_string/string/tasks/removeNonLetters.h
 D:/5e_string/string/string_.h
+-
+
+D:/5e_string/string/tasks/replace.h
+D:/5e_string/string/string_.h
+-
+memory.h
 -
 
 D:/5e_string/string/tasks/replacingEachDigitWithSpaces.h
