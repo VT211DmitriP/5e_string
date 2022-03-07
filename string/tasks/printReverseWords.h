@@ -10,7 +10,7 @@ void reverseWords(char *str) {
     char *begin = str;
     for (int i = 0; i < _bag.size; i++) {
         begin = copyReverse(_bag.words[i].end - 1, _bag.words[i].begin - 1, begin);
-        *begin = ' ';
+        *begin = '\n';
         begin++;
 
     }
@@ -18,6 +18,11 @@ void reverseWords(char *str) {
         begin--;
 
     *begin = '\0';
+}
+
+void printReverseWords(char *str) {
+    reverseWords(str);
+    printf("%s", str);
 }
 
 void test_reverseWords_emptyString() {
@@ -52,14 +57,14 @@ void test_reverseWords_oneLetter() {
     char s[MAX_STRING_SIZE] = "a b c d e e d c a b";
     reverseWords(s);
 
-    ASSERT_STRING("a b c d e e d c a b", s);
+    ASSERT_STRING("a\nb\nc\nd\ne\ne\nd\nc\na\nb", s);
 }
 
 void test_reverseWords_withWords() {
     char s[MAX_STRING_SIZE] = "Hello world right left middle";
     reverseWords(s);
 
-    ASSERT_STRING("olleH dlrow thgir tfel elddim", s);
+    ASSERT_STRING("olleH\ndlrow\nthgir\ntfel\nelddim", s);
 }
 
 void test_reverseWords() {
@@ -70,6 +75,5 @@ void test_reverseWords() {
     test_reverseWords_oneLetter();
     test_reverseWords_withWords();
 }
-
 
 #endif
