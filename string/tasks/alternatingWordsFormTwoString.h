@@ -49,25 +49,25 @@ void test_alternatingWordsFormTwoString_OneWordString() {
     ASSERT_STRING("Hello World", s);
 }
 
-void test_calternatingWordsFormTwoString_OneWordInSecondString() {
+void test_alternatingWordsFormTwoString_OneWordInSecondString() {
     char s[MAX_STRING_SIZE];
     alternatingWordsFormTwoString(s, "Hello and cat and dog", "monkey");
     ASSERT_STRING("Hello monkey and cat and dog", s);
 }
 
-void test_calternatingWordsFormTwoString_OneWordInFirstString() {
+void test_alternatingWordsFormTwoString_OneWordInFirstString() {
     char s[MAX_STRING_SIZE];
     alternatingWordsFormTwoString(s, "monkey", "Hello and cat and dog");
     ASSERT_STRING("monkey Hello and cat and dog", s);
 }
 
-void test_changingWords_firstStringIsEmpty() {
+void test_alternatingWordsFormTwoString_firstStringIsEmpty() {
     char s[MAX_STRING_SIZE];
     alternatingWordsFormTwoString(s, "", "Hello World");
     ASSERT_STRING("Hello World", s);
 }
 
-void test_changingWords_secondStringIsEmpty() {
+void test_alternatingWordsFormTwoString_secondStringIsEmpty() {
     char s[MAX_STRING_SIZE];
     alternatingWordsFormTwoString(s, "Hello World", "");
     ASSERT_STRING("Hello World", s);
@@ -77,10 +77,10 @@ void test_alternatingWordsFormTwoString() {
     test_alternatingWordsFormTwoString_stringsEmpty();
     test_alternatingWordsFormTwoString_stringsSpace();
     test_alternatingWordsFormTwoString_OneWordString();
-    test_calternatingWordsFormTwoString_OneWordInSecondString();
-    test_calternatingWordsFormTwoString_OneWordInFirstString();
-    test_changingWords_firstStringIsEmpty();
-    test_changingWords_secondStringIsEmpty();
+    test_alternatingWordsFormTwoString_OneWordInSecondString();
+    test_alternatingWordsFormTwoString_OneWordInFirstString();
+    test_alternatingWordsFormTwoString_firstStringIsEmpty();
+    test_alternatingWordsFormTwoString_secondStringIsEmpty();
 }
 
 #endif
