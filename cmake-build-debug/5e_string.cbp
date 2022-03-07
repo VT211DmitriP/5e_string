@@ -128,6 +128,9 @@
 		<Unit filename="D:/5e_string/string/tasks/isWordsOrdered.h">
 			<Option target="5e_string"/>
 		</Unit>
+		<Unit filename="D:/5e_string/string/tasks/printReverseWords.h">
+			<Option target="5e_string"/>
+		</Unit>
 		<Unit filename="D:/5e_string/string/tasks/removeExtraSpaces.h">
 			<Option target="5e_string"/>
 		</Unit>

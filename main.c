@@ -4,6 +4,7 @@
 
 
 int main() {
-    allTestsTasks();
+   allTestsTasks();
 
+    return 0;
 }
