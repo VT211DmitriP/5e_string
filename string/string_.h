@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdbool.h>
+#include <assert.h>
 
 #ifndef INC_5E_STRING_STRING__H
 #define INC_5E_STRING_STRING__H

@@ -6,6 +6,7 @@
 #include "isWordsOrdered.h"
 #include "printReverseWords.h"
 #include "countWordsPalindorme.h"
+#include "alternatingWordsFormTwoString.h"
 
 #ifndef INC_5E_STRING_ALLTESTSTASKS_H
 #define INC_5E_STRING_ALLTESTSTASKS_H
@@ -19,7 +20,7 @@ void allTestsTasks() {
     test_isWordsOrdered();
     test_reverseWords();
     test_countWordsPalindrome();
-
+    test_alternatingWordsFormTwoString();
 }
 
 #endif

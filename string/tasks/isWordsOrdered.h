@@ -1,5 +1,4 @@
 #include "D:\5e_string\string\string_.h"
-#include <assert.h>
 
 #ifndef INC_5E_STRING_ISWORDSORDERED_H
 #define INC_5E_STRING_ISWORDSORDERED_H

@@ -122,6 +122,9 @@
 		<Unit filename="D:/5e_string/string/tasks/allTestsTasks.h">
 			<Option target="5e_string"/>
 		</Unit>
+		<Unit filename="D:/5e_string/string/tasks/alternatingWordsFormTwoString.h">
+			<Option target="5e_string"/>
+		</Unit>
 		<Unit filename="D:/5e_string/string/tasks/countWordsPalindorme.h">
 			<Option target="5e_string"/>
 		</Unit>
