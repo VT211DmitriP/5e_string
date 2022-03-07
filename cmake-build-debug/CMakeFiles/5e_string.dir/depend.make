@@ -5,6 +5,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../main.c \
  ../string/string_.h \
  ../string/tasks/allTestsTasks.h \
+ ../string/tasks/countWordsPalindorme.h \
  ../string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h \
  ../string/tasks/isWordsOrdered.h \
  ../string/tasks/printReverseWords.h \
