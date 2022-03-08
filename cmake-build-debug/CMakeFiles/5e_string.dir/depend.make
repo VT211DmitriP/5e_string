@@ -10,6 +10,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h \
  ../string/tasks/isWordsOrdered.h \
  ../string/tasks/printReverseWords.h \
+ ../string/tasks/printWordBeforeFirstWordWithA.h \
  ../string/tasks/removeExtraSpaces.h \
  ../string/tasks/removeNonLetters.h \
  ../string/tasks/replace.h \

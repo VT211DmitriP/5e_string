@@ -8,6 +8,7 @@
 #include "countWordsPalindorme.h"
 #include "alternatingWordsFormTwoString.h"
 #include "reverseWordsInString.h"
+#include "printWordBeforeFirstWordWithA.h"
 
 #ifndef INC_5E_STRING_ALLTESTSTASKS_H
 #define INC_5E_STRING_ALLTESTSTASKS_H
@@ -23,6 +24,7 @@ void allTestsTasks() {
     test_countWordsPalindrome();
     test_alternatingWordsFormTwoString();
     test_reverseWordsInString();
+    testAll_getWordBeforeFirstWordWithA();
 }
 
 #endif
