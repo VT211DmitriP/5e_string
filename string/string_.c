@@ -114,11 +114,11 @@ int getWord(char *beginSearch, WordDescriptor *word) {
 
 //TODO: также возможно пересмотреть
 bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word) {
-    word->end = findNonSpaceReverse(rbegin - 1, rend);
-    if (word->end == rend && !isgraph(*rend) || *word->end == '\0')
+    word->end = findNonSpaceReverse(rbegin , rend) + 1;
+    if (word->end == rend)
         return 0;
 
-    word->begin = findSpaceReverse(word->end, rend);
+    word->begin = findSpaceReverse(word->end - 1, rend) + 1;
 
     return 1;
 }

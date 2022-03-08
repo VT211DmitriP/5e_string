@@ -149,6 +149,9 @@
 		<Unit filename="D:/5e_string/string/tasks/replacingEachDigitWithSpaces.h">
 			<Option target="5e_string"/>
 		</Unit>
+		<Unit filename="D:/5e_string/string/tasks/reverseWordsInString.h">
+			<Option target="5e_string"/>
+		</Unit>
 		<Unit filename="D:/5e_string/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
