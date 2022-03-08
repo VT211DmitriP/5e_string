@@ -124,7 +124,12 @@ bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word) {
 }
 
 int areWordsEqual(WordDescriptor w1, WordDescriptor w2) {
-    return strcmp(w1.begin, w2.begin);
+    char *begin1 = w1.begin;
+    char *begin2 = w2.begin;
+    while (begin1 != w1.end - 1 && (*begin1 == *begin2))
+        begin1++, begin2++;
+
+    return *begin1 - *begin2;
 }
 
 void getBagOfWords(BagOfWords *bag, char *s) {
@@ -148,4 +153,8 @@ char *copyReverse(const char *rbeginSource, const char *rendSource, char *beginD
     }
 
     return beginDestination;
+}
+
+void wordDescriptorToString(WordDescriptor word, char *destination) {
+    *copy(word.begin, word.end, destination) = '\0';
 }

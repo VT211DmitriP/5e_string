@@ -8,6 +8,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/alternatingWordsFormTwoString.h \
  ../string/tasks/countWordsPalindorme.h \
  ../string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h \
+ ../string/tasks/getLastWordInFirstStringInTheSecondString.h \
  ../string/tasks/isWordsOrdered.h \
  ../string/tasks/printReverseWords.h \
  ../string/tasks/printWordBeforeFirstWordWithA.h \

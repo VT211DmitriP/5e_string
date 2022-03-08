@@ -9,6 +9,7 @@
 #include "alternatingWordsFormTwoString.h"
 #include "reverseWordsInString.h"
 #include "printWordBeforeFirstWordWithA.h"
+#include "getLastWordInFirstStringInTheSecondString.h"
 
 #ifndef INC_5E_STRING_ALLTESTSTASKS_H
 #define INC_5E_STRING_ALLTESTSTASKS_H
@@ -25,6 +26,8 @@ void allTestsTasks() {
     test_alternatingWordsFormTwoString();
     test_reverseWordsInString();
     testAll_getWordBeforeFirstWordWithA();
+    test_getLastWordInFirstStringInTheSecondString();
+
 }
 
 #endif

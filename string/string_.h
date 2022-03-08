@@ -64,4 +64,6 @@ void getBagOfWords(BagOfWords *bag, char *s);
 
 char *copyReverse(const char *rbeginSource, const char *rendSource, char *beginDestination);
 
+void wordDescriptorToString(WordDescriptor word, char *destination);
+
 #endif
