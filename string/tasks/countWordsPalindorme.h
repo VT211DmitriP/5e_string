@@ -3,20 +3,6 @@
 #ifndef INC_5E_STRING_COUNTWORDSPALINDORME_H
 #define INC_5E_STRING_COUNTWORDSPALINDORME_H
 
-//TODO: возможно пересмотреть
-int isPalindrome(char *begin, char *end) {
-    end--;
-    while (end - begin > 0) {
-        if (*end != *begin)
-            return 0;
-
-        begin++;
-        end--;
-    }
-
-    return 1;
-}
-
 int countWordsPalindrome(char *str) {
     char *endStr = getEndOfString(str);
 

@@ -11,6 +11,7 @@
 #include "printWordBeforeFirstWordWithA.h"
 #include "getLastWordInFirstStringInTheSecondString.h"
 #include "areEqualWordsInString.h"
+#include "deletePalindroms.h"
 
 #ifndef INC_5E_STRING_ALLTESTSTASKS_H
 #define INC_5E_STRING_ALLTESTSTASKS_H
@@ -29,6 +30,7 @@ void allTestsTasks() {
     testAll_getWordBeforeFirstWordWithA();
     test_getLastWordInFirstStringInTheSecondString();
     test_areEqualWordsInString();
+    test_deletePalindromes();
 
 }
 

@@ -131,6 +131,9 @@
 		<Unit filename="D:/5e_string/string/tasks/countWordsPalindorme.h">
 			<Option target="5e_string"/>
 		</Unit>
+		<Unit filename="D:/5e_string/string/tasks/deletePalindroms.h">
+			<Option target="5e_string"/>
+		</Unit>
 		<Unit filename="D:/5e_string/string/tasks/digitToStartWithoutChangingTheOrderOfTheWord.h">
 			<Option target="5e_string"/>
 		</Unit>

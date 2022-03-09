@@ -66,4 +66,6 @@ char *copyReverse(const char *rbeginSource, const char *rendSource, char *beginD
 
 void wordDescriptorToString(WordDescriptor word, char *destination);
 
+int isPalindrome(char *begin, char *end);
+
 #endif
