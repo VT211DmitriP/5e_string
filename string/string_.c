@@ -31,7 +31,6 @@ char *findSpace(char *begin) {
     return end;
 }
 
-//TODO: возможно пересмотреть
 char *findNonSpaceReverse(char *rbegin, const char *rend) {
     while (rbegin != rend && isspace(*rbegin))
         rbegin--;
@@ -158,6 +157,7 @@ char *copyReverse(const char *rbeginSource, const char *rendSource, char *beginD
 void wordDescriptorToString(WordDescriptor word, char *destination) {
     *copy(word.begin, word.end, destination) = '\0';
 }
+
 
 int isPalindrome(char *begin, char *end) {
     end--;
